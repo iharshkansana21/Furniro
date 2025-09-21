@@ -57,7 +57,7 @@ const Toast = ({ message, isVisible, onHide }) => {
 };
 
 const Shop = ({ onAddToCart }) => {
-    const API_BASE_URL = 'https://furniro-6dum.onrender.com/';
+    const API_BASE_URL = 'https://furniro-6dum.onrender.com';
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
